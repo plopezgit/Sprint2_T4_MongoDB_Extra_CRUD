@@ -6,7 +6,7 @@ https://www.mongodb.com/developer/languages/java/java-setup-crud-operations/
 
 Tks Manel: https://learn.mongodb.com/learning-paths/using-mongodb-with-java?_ga=2.160628596.857923915.1698916011-1362660875.1698915744
 
-##### Creates
+##### Create
 
 ###### Insert one
 
@@ -20,3 +20,8 @@ Tks Manel: https://learn.mongodb.com/learning-paths/using-mongodb-with-java?_ga=
 
 ![Optic](samples/opticFind2.png)
 
+##### Read
+
+###### Specfic document
+
+![Optic](samples/ReadSpecific.png)
