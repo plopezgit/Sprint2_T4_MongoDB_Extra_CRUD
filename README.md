@@ -16,3 +16,7 @@ Tks Manel: https://learn.mongodb.com/learning-paths/using-mongodb-with-java?_ga=
 
 ###### Insert multiples
 
+![Optic](samples/CreateClassMult.png)
+
+![Optic](samples/opticFind2.png)
+

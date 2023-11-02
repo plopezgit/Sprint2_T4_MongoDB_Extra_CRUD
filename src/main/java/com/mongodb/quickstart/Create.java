@@ -10,6 +10,7 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.InsertManyOptions;
 
 public class Create {
 
@@ -24,13 +25,28 @@ public class Create {
 			
 			
 			Document client = new Document ("_id", new ObjectId());
-			client.append("name", "Rol")
-				.append("phone", "634625424")
-				.append("email", "rol@kio.com");
+			client.append("name", "Tris")
+				.append("phone", "534675345")
+				.append("email", "tri@kio.com");
 			
-			clientCollection.insertOne(client);
+			
+			
+			List <Document> clients = new ArrayList<>();
+			
+			clients.add(new Document ("_id", new ObjectId()).append("name", "Bull")
+					.append("phone", "35687463")
+					.append("email", "bull@gus.com"));
+			clients.add(new Document ("_id", new ObjectId()).append("name", "Marc")
+					.append("phone", "35344352")
+					.append("email", "marc@is.com"));
+			clients.add(new Document ("_id", new ObjectId()).append("name", "Kyr")
+					.append("phone", "865345435")
+					.append("email", "kir@wer.com"));
+			
+			
+			clientCollection.insertMany(clients, new InsertManyOptions().ordered(false));
 		}
 		
 	}
-
+	
 }
