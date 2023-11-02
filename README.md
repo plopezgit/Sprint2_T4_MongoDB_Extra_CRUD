@@ -8,7 +8,11 @@ Tks Manel: https://learn.mongodb.com/learning-paths/using-mongodb-with-java?_ga=
 
 ##### Creates
 
+###### Insert one
+
 ![Optic](samples/CreateClass.png)
 
 ![Optic](samples/opticFind.png)
+
+###### Insert multiples
 
