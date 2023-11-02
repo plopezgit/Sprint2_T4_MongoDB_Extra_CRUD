@@ -12,6 +12,7 @@ import static com.mongodb.client.model.Filters.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Read {
 
@@ -37,11 +38,15 @@ public class Read {
 			}*/
 			
 			
-			FindIterable<Document> iterable = clientCollection.find((ne("name", "kjhfdjhd")));
+			/*FindIterable<Document> iterable = clientCollection.find((ne("name", "kjhfdjhd")));
 			MongoCursor<Document> cursor = iterable.iterator();
 			while (cursor.hasNext()) {
 			    System.out.println(cursor.next().toJson());
-			}
+			}*/
+			
+			
+			Consumer<Document> printConsumer = document -> System.out.println(document.toJson());
+			clientCollection.find(ne("name", "kjhfdjhd")).forEach(printConsumer);
 			
 			
 		}
