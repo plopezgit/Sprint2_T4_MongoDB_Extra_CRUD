@@ -29,3 +29,7 @@ Tks Manel: https://learn.mongodb.com/learning-paths/using-mongodb-with-java?_ga=
 ###### Range of documents (by list)
 
 ![Optic](samples/ReadRange.png)
+
+###### Range of documents (by iterator)
+
+![Optic](samples/ReadRangeIterator.png)
