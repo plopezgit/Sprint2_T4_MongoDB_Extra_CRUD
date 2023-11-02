@@ -44,3 +44,15 @@ Tks Manel: https://learn.mongodb.com/learning-paths/using-mongodb-with-java?_ga=
 ###### Update one
 
 ![Optic](samples/UpdateOne.png)
+
+_There is others update operators examples:_
+- **set** will set a value.
+- **inc** will increment a value.
+- **rename** will rename a field.
+- **mul** will multiply the value by the given number.
+- **addToSet** is similar to push but will only push the value in the array if the value doesn't exist already.
+
+
+#### Delete
+
+![Optic](samples/DeleteOne.png)
