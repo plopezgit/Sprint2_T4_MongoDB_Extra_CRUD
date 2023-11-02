@@ -25,3 +25,7 @@ Tks Manel: https://learn.mongodb.com/learning-paths/using-mongodb-with-java?_ga=
 ###### Specfic document
 
 ![Optic](samples/ReadSpecific.png)
+
+###### Range of documents (by list)
+
+![Optic](samples/ReadRange.png)
