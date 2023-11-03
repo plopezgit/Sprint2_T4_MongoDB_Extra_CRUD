@@ -9,6 +9,21 @@ It follows: https://www.mongodb.com/developer/languages/java/java-setup-crud-ope
 
 ###### Insert one
 
+`public class Create {
+public static void main(String[] args) {
+try (MongoClient mongoClient
+= MongoClients.create()){
+MongoDatabase opticDb = mongoClient.getDatabase("optic") :
+MongoCollection<Document> clientCollection = opticDb.getCollection("client") ;
+Document client = new Document (" id", new ObjectId()):
+client.append ("name"
+"Rol")
+-append ("phone"
+"634625424")
+-append ("email"
+"rolakio.com"):
+clientCollection.insertOne(client);`
+
 ![Optic](samples/CreateClass.png)
 
 ![Optic](samples/opticFind.png)
