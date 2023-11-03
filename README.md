@@ -1,6 +1,6 @@
 # Sprint2_T4_MongoDB_Java
 
-It tests the set up for Java project with Maven and execute a MongoDB command, exploring the most CRUD operations using the MongoDB Java driver
+It tests the set up for Java project with Maven and execute a MongoDB command, exploring the most CRUD operations using the MongoDB Java driver.
 
 It follows: https://www.mongodb.com/developer/languages/java/java-setup-crud-operations/
 
